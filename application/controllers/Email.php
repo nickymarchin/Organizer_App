@@ -261,8 +261,8 @@ class Email extends CI_Controller
 		$mail->Host = "smtp.gmail.com";
 		$mail->Port = 465; // or 587
 		$mail->IsHTML(true);
-		$mail->Username = "niki.marchin@gmail.com";
-		$mail->Password = "Ferrari10*";
+		$mail->Username = "**********";
+		$mail->Password = "**********";
 
 		return $mail;
 
